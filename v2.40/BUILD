@@ -8,5 +8,6 @@ exports_files(
 cc_library(
     name = "v2.40",
     hdrs = glob(["*.h"]),
+    strip_include_prefix = "/v2.40",
     visibility = ["//visibility:public"],
 )
